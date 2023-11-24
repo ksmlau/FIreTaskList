@@ -1,3 +1,5 @@
+// this file reads from the .env file in root and loads up the environment variables creating a new environment file from it.
+
 require('dotenv').config()
 
 const fs = require('fs');
