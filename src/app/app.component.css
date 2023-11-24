@@ -22,7 +22,7 @@ mat-toolbar>span {
 }
 
 .list {
-    border: solid 1px #f00000;
+    border: solid 1px #1f1d1d;
     min-height: 60px;
     border-radius: 4px;
 }

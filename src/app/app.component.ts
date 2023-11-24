@@ -79,7 +79,7 @@ export class AppComponent {
 
   editTask(list: 'done' | 'todo' | 'inProgress', task: Task): void {
     const dialogRef = this.dialog.open(TaskDialogComponent, {
-      width: '270px',
+      width: '400px',
       data: {
         task,
         enableDelete: true,
